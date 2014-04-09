@@ -1,0 +1,7 @@
+name: dart_people_mosaic
+version: 0.0.1-dev
+author: Gerwin Sturm
+description: Create a Photo mosaic based on your profile image and the people you follow.
+dependencies:
+  browser: any
+  google_plus_v1_api: any

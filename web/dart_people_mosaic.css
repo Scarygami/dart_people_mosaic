@@ -1,0 +1,68 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#progress {
+  line-height: 0;
+}
+
+#progress img {
+  display: inline-block;
+  margin: 0;
+}
+
+#controls, #progress, #result, #state {
+  margin: 5px 0px;
+}
+
+
+.button {
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #999;
+}
+.button:hover {
+  background: #aaa;
+}
+
+.login {
+  background: #dd4b39;
+}
+.login:hover {
+  background: #e74b37;
+}
+
+.button .icon {
+  background: url('images/btn_red_32.png') transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 35px;
+  border-right: #555 1px solid;
+}
+
+.login .icon {
+  border-right: #bb3f30 1px solid;
+}
+.button .buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto',arial,sans-serif;
+}
