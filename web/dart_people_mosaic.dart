@@ -212,12 +212,16 @@ void createImageData() {
         completer.complete();
       });
 
+      small_img.onError.listen((_) => completer.complete());
+
       // Enable CORS-loading of image so we can use it on canvas
       small_img.crossOrigin = "Anonymous";
 
       // Let Google handle the resizing to 1x1 pixels to get an average color
       small_img.src = p["url"] + "&sz=1";
     });
+
+    img.onError.listen((_) => completer.complete());
 
     // Enable CORS-loading of image so we can use it on canvas
     img.crossOrigin = "Anonymous";
@@ -294,6 +298,7 @@ void handlePixel(List<num> pixel) {
   }
 
   personData.forEach((p) {
+    if (p["imageData"] == null) { return; }
     var uses = p["uses"];
     var r2 = p["imageData"][0];
     var g2 = p["imageData"][1];
