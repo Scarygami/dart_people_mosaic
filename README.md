@@ -1,5 +1,4 @@
 <h1 itemprop="title">Dart People Mosaic</h1>
-================================================
 
 <p itemprop="description">Create a Photo mosaic based on your profile image and the people you follow.</p>
 
