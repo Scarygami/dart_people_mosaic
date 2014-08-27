@@ -1,7 +1,7 @@
-<span itemprop="title">Dart People Mosaic</span>
+<h1 itemprop="title">Dart People Mosaic</h1>
 ================================================
 
-<span itemprop="description">Create a Photo mosaic based on your profile image and the people you follow.</span>
+<p itemprop="description">Create a Photo mosaic based on your profile image and the people you follow.</p>
 
 Live demo: https://scary-experiments.appspot.com/dartmosaic/
 
